@@ -60,7 +60,7 @@
 
 // ###### CONTROL VIA RC REMOTE ######
 // left sensor board cable. Channel 1: steering, Channel 2: speed. Use a very short cable!
-//#define CONTROL_PPM                 // use PPM-Sum as input. disable CONTROL_SERIAL_USART2!
+#define CONTROL_PPM                 // use PPM-Sum as input. disable CONTROL_SERIAL_USART2!
 //#define PPM_NUM_CHANNELS 6          // total number of PPM channels to receive, even if they are not used.
 
 // ###### CONTROL VIA TWO POTENTIOMETERS ######
@@ -77,8 +77,8 @@
 
 // ###### MOTOR TEST MODE ######
 // slowly move both wheels forward and backward, ignoring all inputs
-#define CONTROL_MOTOR_TEST
-#define CONTROL_MOTOR_TEST_MAX_SPEED 300         // sweep slowly from -MAX_SPEED to MAX_SPEED (0 - 1000)
+//#define CONTROL_MOTOR_TEST
+//#define CONTROL_MOTOR_TEST_MAX_SPEED 300         // sweep slowly from -MAX_SPEED to MAX_SPEED (0 - 1000)
 
 // ############################### DRIVING BEHAVIOR ###############################
 
